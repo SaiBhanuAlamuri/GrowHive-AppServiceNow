@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="893a420783dea6901c27e270ceaad37a" label="ContactandSupport" max_length="40" name="x_1745159_growhive_contactandsupport" text_index="true" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="onHoldReason" max_length="40" name="onholdreason" type="string"/>
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element label="Department" max_length="255" name="department" reference="x_1745159_growhive_departments" type="reference"/>
+        <element choice="1" default="new" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="On-Hold" sequence="2" value="onhold"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="Closed"/>
+                <element inactive_on_update="false" label="Progress" sequence="1" value="progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+            </choice>
+        </element>
+        <element label="Department" max_length="32" name="departmen0" reference="x_1745159_growhive_departments" type="reference"/>
+        <element dependent="departmen0" dependent_on_field="departmen0" label="AssignedTo" max_length="32" name="assignedto" reference="x_1745159_growhive_employees" type="reference" use_dependent_field="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Issue_Id" max_length="40" name="number" type="string"/>
+        <element label="Solution" max_length="40" name="solution" type="string"/>
+        <element label="Subject" max_length="255" name="subject" type="string"/>
+        <element choice="1" default="Open" label="CaseStatus" max_length="40" name="casestatus" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="Closed"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assignedto"/>
+        </index>
+        <index name="index2">
+            <element name="departmen0"/>
+        </index>
+    </element>
+</database>

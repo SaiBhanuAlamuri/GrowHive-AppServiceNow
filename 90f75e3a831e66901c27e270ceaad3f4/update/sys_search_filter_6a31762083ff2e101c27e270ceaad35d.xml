@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="GrowLoginData">6631762083ff2e101c27e270ceaad356</ais_search_source>
+        <label>GrowLoginData</label>
+        <name>GrowLoginData</name>
+        <order>400</order>
+        <search_context_config display_value="GrowHiveWorkspace AI Search Configuration">8431b220b0ff2e10de68f310eb302554</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 08:56:43</sys_created_on>
+        <sys_id>6a31762083ff2e101c27e270ceaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GrowLoginData</sys_name>
+        <sys_package display_value="GrowHive" source="x_1745159_growhive">90f75e3a831e66901c27e270ceaad3f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GrowHive">90f75e3a831e66901c27e270ceaad3f4</sys_scope>
+        <sys_update_name>sys_search_filter_6a31762083ff2e101c27e270ceaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 08:56:43</sys_updated_on>
+    </sys_search_filter>
+</record_update>

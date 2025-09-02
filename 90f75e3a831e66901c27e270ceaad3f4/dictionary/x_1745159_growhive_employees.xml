@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9ceb8147839aa6901c27e270ceaad32c" label="Employees" max_length="40" name="x_1745159_growhive_employees" text_index="true" type="collection">
+        <element label="Emp_Email" max_length="40" name="emp_email" type="string"/>
+        <element label="Emp_Id" max_length="40" name="emp_id" type="string"/>
+        <element label="Emp_Department" max_length="32" name="emp_department" reference="x_1745159_growhive_departments" type="reference"/>
+        <element display="true" label="Emp_Name" max_length="40" name="emp_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element default="0" label="current_load" max_length="255" name="current_load" type="integer"/>
+        <element default="0" label="skills_score" max_length="40" name="skills_score" type="integer"/>
+        <index name="index">
+            <element name="emp_department"/>
+        </index>
+        <index name="index2">
+            <element name="emp_email"/>
+        </index>
+    </element>
+</database>
