@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1745159_growhive_growhiveworkspace_search_profile_default_spell_check_dictionary">ce31362083ff2e101c27e270ceaad3ce</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="growhiveworkspace Search Profile">8431b220c4ff2e10d2c553121e51ea5b</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 08:56:42</sys_created_on>
+        <sys_id>da31362083ff2e101c27e270ceaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1745159_growhive_growhiveworkspace_search_profile_default_spell_check_dictionary.growhiveworkspace Search Profile</sys_name>
+        <sys_package display_value="GrowHive" source="x_1745159_growhive">90f75e3a831e66901c27e270ceaad3f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GrowHive">90f75e3a831e66901c27e270ceaad3f4</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_da31362083ff2e101c27e270ceaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 08:56:42</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

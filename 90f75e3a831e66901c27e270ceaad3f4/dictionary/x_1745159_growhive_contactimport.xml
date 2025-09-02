@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bb36a45e8313ea501c27e270ceaad39a" extends="sys_import_set_row" label="ContactImport" max_length="40" name="x_1745159_growhive_contactimport" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AssignedTo" label="AssignedTo" max_length="40" name="u_assignedto" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Solution" label="Solution" max_length="40" name="u_solution" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Issue_Id" label="Issue_Id" max_length="40" name="u_issue_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department" label="Department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=onHoldReason" label="onHoldReason" max_length="40" name="u_onholdreason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Subject" label="Subject" max_length="40" name="u_subject" type="string"/>
+    </element>
+</database>

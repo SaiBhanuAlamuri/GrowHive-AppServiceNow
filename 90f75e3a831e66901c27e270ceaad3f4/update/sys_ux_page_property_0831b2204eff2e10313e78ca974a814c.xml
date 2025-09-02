@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="GrowHiveWorkspace">4831b22040ff2e1035c2aa1e7ca0a35b</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-02 08:56:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>0831b2204eff2e10313e78ca974a814c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="GrowHive" source="x_1745159_growhive">90f75e3a831e66901c27e270ceaad3f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GrowHive">90f75e3a831e66901c27e270ceaad3f4</sys_scope>
+        <sys_update_name>sys_ux_page_property_0831b2204eff2e10313e78ca974a814c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-02 08:56:35</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1745159_growhive.4831b22040ff2e1035c2aa1e7ca0a35b.root.globalSearchDataConfigId</unique_name>
+        <value>0031b2201dff2e102295588a1bb69f54</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=0831b2204eff2e10313e78ca974a814c"/>
+</record_update>
